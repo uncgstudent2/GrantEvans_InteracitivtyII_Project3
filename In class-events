@@ -5,5 +5,6 @@
 </head>
 <body>
     <button id="thisButton"> This Button </button> 
+    <p id="message"></p>
 </body>
 </html>
