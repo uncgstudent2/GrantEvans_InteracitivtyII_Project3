@@ -1,1 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <p id="addition"></p>
 
+    <script>
+        function add(a + b + c + d) {
+            return a + b + c + d;
+        }
+
+        let result = add(2,3,4,1);
+
+        document.getElementById("addition").innerHTML = "The sum is" +
+        result;
+    </script>
+</body>
+</html>
