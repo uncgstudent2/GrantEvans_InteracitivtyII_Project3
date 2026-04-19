@@ -1,11 +1,23 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    position:realitive;
+    width:100vw;
+    margin:0;
+}
 .image-container{
-    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+    width: 500px;
     height: 250px;
 }
 .image-container img{
